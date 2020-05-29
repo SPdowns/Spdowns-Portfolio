@@ -7,9 +7,10 @@
 .jumbotron {
   background-image: radial-gradient(#f9f871, #ffaf4d, #ff5f65, #d51c90, #5b2eb0);
   text-align: left;
+  font-family: 'Courier New', Courier, monospace;
 }
 
-.red {
+.headshot {
   float: right;
   width: 110px;
   border-radius: 10px;
@@ -24,7 +25,9 @@
   background-image: radial-gradient(#f9f871, #ffaf4d, #ff5f65, #d51c90, #5b2eb0);
 }
 
-
+.row {
+  padding: 15px;
+}
 
 .rec {
   background-color: chartreuse;
@@ -42,5 +45,6 @@ body {
   background-image: url(../img/bgimg1.jpg);
   background-position: center;
   background-color: #cccccc;
+  font-family: cursive;
 }
 
