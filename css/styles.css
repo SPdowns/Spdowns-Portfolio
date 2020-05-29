@@ -1,11 +1,21 @@
+/* navbar styling */
 .navbar {
   padding: 12px;
   background-color: beige;
   float: left;
 }
 
+.cent {
+  text-align: center;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: 600;
+}
+
+/* header styling */
+
 .jumbotron {
-  background-image: linear-gradient(to top, #5b2eb0, #bd1895, #f03c72, #ff7655, #ffaf4d, #ffaf4d, #ffaf4d, #ffaf4d, #ff7655, #f03c72, #bd1895, #5b2eb0);  font-family: 'Courier New', Courier, monospace;
+  background-image: linear-gradient(to top, #5b2eb0, #bd1895, #f03c72, #ff7655, #ffaf4d, #ffaf4d, #ffaf4d, #ffaf4d, #ff7655, #f03c72, #bd1895, #5b2eb0);  
+  font-family: 'Courier New', Courier, monospace;
 }
 
 .headshot {
@@ -14,21 +24,22 @@
   border-radius: 10px;
 }
 
-.content {
-  border-radius: 10px;
-  background-image: radial-gradient(#f9f871, #ffaf4d, #ff5f65, #d51c90, #0a027e)
-}
-
-.cent {
-  text-align: center;
-  font-family: 'Courier New', Courier, monospace;
-  font-weight: 600;
-}
-.git {;
-}
+/* column styling */
 
 .row {
   padding: 15px;
+}
+
+.content {
+  border-radius: 10px;
+  background-image: radial-gradient(#f9f871, #ffaf4d, #ff5f65, #d51c90, #0a027e);
+}
+
+.git {;
+}
+
+.sidenote {
+  font-size: 3px;
 }
 
 .resource {
@@ -37,10 +48,6 @@
 
 .about {
   
-}
-
-.sidenote {
-  font-size: 3px;
 }
 
 body {
