@@ -4,6 +4,14 @@
   float: left;
 }
 
+.git {
+  background-color: rgb(211, 157, 157);
+}
+
+.rec {
+  background-color: chartreuse;
+}
+
 body {
   background-image: url("../img/bgimg1.jpg");
   background-repeat: no-repeat;
