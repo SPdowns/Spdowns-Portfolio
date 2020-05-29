@@ -4,6 +4,15 @@
   float: left;
 }
 
+.jumbotron {
+  text-align: center;
+}
+
+.red {
+  float: right;
+  width: 110px;
+}
+
 .cent {
   text-align: center;
 }
