@@ -1,9 +1,12 @@
 .navbar {
-  padding: 5px;
+  padding: 3px;
   background-color: beige;
   float: left;
 }
 
+.cent {
+  text-align: center;
+}
 .git {
   background-color: rgb(211, 157, 157);
 }
