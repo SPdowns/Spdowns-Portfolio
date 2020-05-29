@@ -7,8 +7,6 @@
   src: url(../fonts/ibmfont2.ttf)
 }
 
-
-
 /* navbar styling */
 #navbar {
   padding: 12px;
@@ -43,6 +41,9 @@
 }
 
 /* column styling */
+.right-align {
+  text-align: right;
+}
 
 .row {
   padding: 15px;
