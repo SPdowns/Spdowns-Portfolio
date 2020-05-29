@@ -68,6 +68,11 @@ body {
   font-weight: 900;
   }
 
+@font-face {
+  font-family: ibmfont;
+  src: 
+}
+
 a {
   color: rgb(0, 255, 13);
   text-shadow: 6px 6px 6px #067e02;
@@ -76,5 +81,8 @@ a {
 h3 {
   -webkit-text-stroke: 1px black;
   font-size: 60px;
-  color: #
+  color: red;
+  font-family: ;
+  font-weight: 900;
+  text-align: center;
 }
