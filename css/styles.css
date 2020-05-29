@@ -1,21 +1,24 @@
 .navbar {
-  padding: 3px;
+  padding: 12px;
   background-color: beige;
   float: left;
 }
 
 .jumbotron {
   background-image: radial-gradient(#f9f871, #ffaf4d, #ff5f65, #d51c90, #5b2eb0);
-  text-align: center;
+  text-align: left;
 }
 
 .red {
   float: right;
   width: 110px;
+  border-radius: 10px;
 }
 
 .cent {
   text-align: center;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: 600;
 }
 .git {
   background-image: radial-gradient(#f9f871, #ffaf4d, #ff5f65, #d51c90, #5b2eb0);
