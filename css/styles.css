@@ -3,7 +3,7 @@
   src: url(../fonts/ibmfont.ttf)
 }
 /* navbar styling */
-.navbar {
+#navbar {
   padding: 12px;
   color: white;
   text-shadow: 6px 6px 6px #000000;
@@ -13,7 +13,7 @@
   background-image: linear-gradient(to right, #5b2eb0, #e20084, #ff4633, #f6af00, #f6af00, #f6af00);
 }
 
-.cent {
+#cent {
   text-align: center;
   font-family: 'Courier New', Courier, monospace;
   font-weight: 900;
@@ -63,11 +63,6 @@
   padding: 15px;
   padding-top: 0px;
   background-image: linear-gradient(#ffaf4d, #ff5f65, #d51c90, #0a027e);
-}
-
-.right-entry {
-  text-align: right;
-  color: #ff8e8e;
 }
 
 body {
