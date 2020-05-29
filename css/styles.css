@@ -12,6 +12,10 @@
   background-color: chartreuse;
 }
 
+.about {
+  background-color: #bc13fe;
+}
+
 body {
   background-image: url("../img/bgimg1.jpg");
   background-repeat: no-repeat;
