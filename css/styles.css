@@ -10,6 +10,7 @@
 /* navbar styling */
 #navbar {
   padding: 12px;
+  border-radius: 8px;
   color: white;
   text-shadow: 6px 6px 6px #000000;
   font-family: ibmfont2;
