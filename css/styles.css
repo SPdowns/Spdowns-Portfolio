@@ -7,6 +7,8 @@
   src: url(../fonts/ibmfont2.ttf)
 }
 
+
+
 /* navbar styling */
 #navbar {
   padding: 12px;
@@ -48,7 +50,7 @@
 
 .content {
   border-radius: 10px;
-  background-image: linear-gradient(to top, #0a027e, #d51c90,#ffaf4d, #f9f871);
+  background-image: radial-gradient(#f9f871, #ffaf4d, #ff5f65, #d51c90, #0a027e);
 }
 
 .content p {
@@ -70,8 +72,8 @@
   padding: 15px;
   padding-top: 0px;
   background-image: linear-gradient(#f6af00, #ffaf4d, #ff5f65, #d51c90, #0a027e);
-  font-size: 16px;
-  text-shadow: 0px ;
+  font-size: 18px;
+  
   }
 
 body {
@@ -80,7 +82,7 @@ body {
   background-attachment: fixed;
   background-size: cover;
   color: white;
-  text-shadow: 0px 0px 0px #000000;
+  text-shadow: 0px 6px 6px #000000;
   font-weight: 900;
   }
 
