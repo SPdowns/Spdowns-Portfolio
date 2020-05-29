@@ -7,14 +7,12 @@
   src: url(../fonts/ibmfont2.ttf)
 }
 
-
-
 /* navbar styling */
 #navbar {
   padding: 12px;
   color: white;
   text-shadow: 6px 6px 6px #000000;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: ibmfont2;
   font-weight: 100;
   float: left;
   background-image: linear-gradient(to right, #5b2eb0, #e20084, #ff4633, #f6af00, #f6af00, #f6af00);
@@ -50,12 +48,14 @@
 
 .content {
   border-radius: 10px;
-  background-image: radial-gradient(#f9f871, #ffaf4d, #ff5f65, #d51c90, #0a027e);
-  font-family: 'Courier New', Courier, monospace;
+  background-image: linear-gradient(to top, #0a027e, #d51c90,#ffaf4d, #f9f871);
+}
+
+.content p {
+  font-family: ibmfont2;
 }
 
 .git {
-  font-cp
 }
 
 .sidenote {
@@ -71,9 +71,8 @@
   padding-top: 0px;
   background-image: linear-gradient(#f6af00, #ffaf4d, #ff5f65, #d51c90, #0a027e);
   font-size: 16px;
-  -webkit-text-stroke: 1px black;
-  text-shadow: 0px;
-}
+  text-shadow: 0px ;
+  }
 
 body {
   background-image: url(../img/bgimg2.jpg);
@@ -81,13 +80,16 @@ body {
   background-attachment: fixed;
   background-size: cover;
   color: white;
-  text-shadow: 6px 6px 6px #000000;
+  text-shadow: 0px 0px 0px #000000;
   font-weight: 900;
   }
 
 a {
-  color: rgb(0, 255, 13);
-  text-shadow: 6px 6px 6px #067e02;
+  color: rgb(0, 255, 21);
+  text-shadow: 0px 0px 0px #000000;
+  text-decoration: none;
+  border-bottom: 4px solid rgb(0, 255, 21);
+  font-family: ibmfont2;
 }
 
 h3 {
