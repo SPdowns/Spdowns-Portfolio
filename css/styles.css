@@ -1,21 +1,28 @@
 /* navbar styling */
 .navbar {
   padding: 12px;
-  background-color: beige;
+  color: white;
+  text-shadow: 6px 6px 6px #000000;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 100;
   float: left;
+  background-image: linear-gradient(to right, #5b2eb0, #e20084, #ff4633, #f6af00, #f6af00, #f6af00);
 }
 
 .cent {
   text-align: center;
   font-family: 'Courier New', Courier, monospace;
-  font-weight: 600;
+  font-weight: 900;
 }
 
 /* header styling */
 
 .jumbotron {
-  background-image: linear-gradient(to top, #5b2eb0, #bd1895, #f03c72, #ff7655, #ffaf4d, #ffaf4d, #ffaf4d, #ffaf4d, #ff7655, #f03c72, #bd1895, #5b2eb0);  
+  background-image: linear-gradient(to top, #0a027e, #d51c90,#ffaf4d, #f9f871, #ffaf4d, #ff5f65, #d51c90, #0a027e);
   font-family: 'Courier New', Courier, monospace;
+  padding-top: 15px;
+  color: white;
+  text-shadow: 2px 2px 4px #000000;
 }
 
 .headshot {
@@ -33,9 +40,11 @@
 .content {
   border-radius: 10px;
   background-image: radial-gradient(#f9f871, #ffaf4d, #ff5f65, #d51c90, #0a027e);
+  font-family: 'Courier New', Courier, monospace;
 }
 
-.git {;
+.git {
+  font-cp
 }
 
 .sidenote {
@@ -51,8 +60,22 @@
 }
 
 body {
-  background-image: url(../img/bgimg1.jpg);
+  background-image: url(../img/bgimg2.jpg);
   background-position: center;
-  font-family: cursive;
+  background-size: cover;
+  color: white;
+  text-shadow: 6px 6px 6px #000000;
+  font-weight: 900;
+  }
+
+a {
+  color: rgb(0, 255, 13);
+  text-shadow: 6px 6px 6px #067e02;
 }
 
+h3 {
+  -webkit-text-stroke: 1px black;
+  font-size: 60px;
+  color: #;
+  te
+}
