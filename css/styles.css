@@ -5,7 +5,7 @@
 }
 
 .jumbotron {
-  background-image: linear-gradient(to left bottom, #f9f871, #ffaf4d, #ff5f65, #d51c90, #5b2eb0);
+  background-image: radial-gradient(#f9f871, #ffaf4d, #ff5f65, #d51c90, #5b2eb0);
   text-align: center;
 }
 
@@ -18,8 +18,10 @@
   text-align: center;
 }
 .git {
-  background-color: rgb(211, 157, 157);
+  background-image: radial-gradient(#f9f871, #ffaf4d, #ff5f65, #d51c90, #5b2eb0);
 }
+
+
 
 .rec {
   background-color: chartreuse;
@@ -34,7 +36,7 @@
 }
 
 body {
-  background-image: radial-gradient(circle, #f9f871, #ffaf4d, #ff5f65, #d51c90, #5b2eb0);
+  background-image: url(../img/bgimg1.jpg);
   background-position: center;
   background-color: #cccccc;
 }
