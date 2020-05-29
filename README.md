@@ -10,7 +10,7 @@ _A portfolio website Goes into Week One of Epicodus and who I am_
 
 ## Setup/Installation Requirements
 
-_To view live website, visit https://spdowns.github.io/spdowns-portfolio/_
+_To view live website, visit https://spdowns.github.io/Spdowns-Portfolio/_
 
 ## Known Bugs
 _None_
