@@ -5,9 +5,7 @@
 }
 
 .jumbotron {
-  background-image: radial-gradient(#f9f871, #ffaf4d, #ff5f65, #d51c90, #5b2eb0);
-  text-align: left;
-  font-family: 'Courier New', Courier, monospace;
+  background-image: linear-gradient(to top, #5b2eb0, #bd1895, #f03c72, #ff7655, #ffaf4d, #ffaf4d, #ffaf4d, #ffaf4d, #ff7655, #f03c72, #bd1895, #5b2eb0);  font-family: 'Courier New', Courier, monospace;
 }
 
 .headshot {
@@ -16,25 +14,29 @@
   border-radius: 10px;
 }
 
+.content {
+  border-radius: 10px;
+  background-image: radial-gradient(#f9f871, #ffaf4d, #ff5f65, #d51c90, #0a027e)
+}
+
 .cent {
   text-align: center;
   font-family: 'Courier New', Courier, monospace;
   font-weight: 600;
 }
-.git {
-  background-image: radial-gradient(#f9f871, #ffaf4d, #ff5f65, #d51c90, #5b2eb0);
+.git {;
 }
 
 .row {
   padding: 15px;
 }
 
-.rec {
-  background-color: chartreuse;
+.resource {
+  
 }
 
 .about {
-  background-color: #bc13fe;
+  
 }
 
 .sidenote {
@@ -44,7 +46,6 @@
 body {
   background-image: url(../img/bgimg1.jpg);
   background-position: center;
-  background-color: #cccccc;
   font-family: cursive;
 }
 
